@@ -1,0 +1,531 @@
+body{
+	width: auto;
+	margin: 0;
+	padding: 0;
+	font-family: "Arial", sans-serif;
+}
+
+.header{
+	background: url("img/wheat-back.jpg") no-repeat 0 0;
+	height: 550px;
+	background-position: left;
+	background-size: cover;
+	margin: 0;
+	padding-top: 1px;
+}
+.nav-group {
+margin-top: -70px;
+padding:0;
+width: 600px;
+list-style: none;
+margin-left: 400px;
+border-top: 1px solid rgba(255, 255, 255, 0.2);
+border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+.nav-group a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+.nav-group li{
+	display: inline;
+	text-transform: uppercase;
+	margin-right: 50px;
+	font-weight: bold;
+}
+
+.nav-group li:last-child{
+	margin-right: 0;
+}
+
+.logo{
+	margin-left: 200px;
+	margin-top: 60px;
+}
+
+.golova{
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 100px
+}
+
+.novinki{
+	color: black;
+	font-size: 40px;
+	padding:0;
+	margin: 0;
+	margin-top: 80px;
+	margin-left: 180px;
+	text-transform: uppercase;
+}
+
+.bottles{
+	width: 400px;
+	display: inline-block;
+	margin-left: 210px;
+	padding-top: 50px;
+
+}
+
+.bottles:last-child{
+	margin-left: 0
+}
+.bottles h3{
+	text-transform: uppercase;
+	color: black;
+	font-size: 40px;
+}
+
+
+.bottles table{
+	width: 150px;
+	border-collapse: collapse;
+	margin-left: 200px
+
+}
+
+.bottles td{
+	font-size: 16px;
+	text-align: left;
+	border: 1px solid silver;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.bottles .composition{
+	font-size: 14px;
+	color: black;
+	margin-left: 200px;
+	line-height: 24px;
+}
+
+
+.bottles .description{
+	padding: 0px 60px 0 0;
+	color: rgb(115,115,115);
+	font-size: 16px;
+	padding-left: 0;
+	margin-bottom: 70px;
+	line-height: 28px;
+}
+
+.bottles img{
+	margin-top: -130px;
+	position: relative;
+	z-index: -1
+}
+
+.bottles .btn{
+	text-decoration: none;
+	font-size: 16px;
+	
+}
+.bottles .more{
+	color: rgb(131, 71, 0);
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 2px solid rgb(131, 71, 0);
+	padding: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.bottles .buy{
+	color: white;
+	padding: 17px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: rgb(131, 71, 0);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.bottles strong{
+	margin-left: 20px;
+}
+
+.about-us{
+	list-style: none;
+	height: 400px;
+	background: rgb(255, 203, 120);
+	padding: 0;
+	margin-top: 120px
+}
+
+.kolonna{
+	display: inline-block;
+	width: 350px;
+	text-align: left;
+	padding-left: 90px;
+	
+}
+.about-us li{
+	text-align: left;
+	font-size: 16px;
+	color: black;
+	width: 210px;
+	text-transform: uppercase;
+}
+.about-us p{
+	width: 210px;
+	color: rgb(64, 64, 64);
+	font-size: 16px;
+	margin-top: 30px;
+	line-height: 28px
+}
+.about-us img{
+	margin-top: 80px;
+	margin-bottom: 10px
+}
+
+.history h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 80px 0 0 200px;
+}
+
+.history dt{
+	margin-top: 50px
+}
+
+.history dt span{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 200px;
+}
+
+.history dd{
+	width: 490px;
+	font-size: 16px;
+	color: rgb(115, 115, 115);
+	line-height: 28px;
+	margin-left: 200px;
+	margin-top: 20px
+}
+.history dd img{
+	position: absolute;
+	left: 800px;
+}
+.history i{
+	margin-left: 340px;
+}
+.history i a{
+	color: rgb(139, 83, 17);
+}
+.history p{
+	margin-top: 0;
+}
+
+.history{
+	height: 500px;
+
+}
+
+.press-about-us{
+	height: 380px;
+	background-color: rgb(237, 229, 216);
+	padding: 80px 0 0 200px;
+
+}
+
+.press-about-us img{
+	position: absolute;
+	left: 80px;
+}
+
+.press-about-us dt{
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+}
+.press-about-us dd{
+	margin-left: 0;
+	margin-top: 70px;
+	width: 690px;
+}
+.press-about-us dd span{
+	color: rgb(64, 64, 64);
+	line-height: 28px
+}
+.newspaper{
+	margin-top: 50px;
+}
+.newspaper i{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: normal;
+	margin-left: 300px
+}
+.newspaper  .read{
+	color: rgb(165, 160, 151);
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 2px solid rgb(165, 160, 151);
+	padding: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration:  none;
+}
+.newspaper p{
+	width: 1000px
+}
+.assortiment h2{
+	font-size: 40px;
+	margin-top: 100px;
+	margin-left: 150px;
+	text-transform: uppercase;
+}
+
+.assortiment table{
+	margin-left: 150px;
+	margin-top: 80px;
+	border-collapse: collapse;
+}
+.assortiment table th,
+.assortiment table td
+					{
+	padding: 20px 0;					
+	border-bottom: 1px solid silver;
+	font-size: 16px;
+}
+.assortiment table th{
+	color: rgb(167, 167, 167);
+	text-align: left;
+	font-weight: normal;
+	font-size: 11px;
+	padding-bottom: 32px;
+	text-transform: uppercase;
+}
+
+.assortiment table td{
+	color: rgb(64, 64, 64);
+	text-transform: uppercase;
+}
+
+.assortiment .name-of-kvas{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+}
+.name-of-kvas sup{
+	text-transform: uppercase;
+	font-size: 8px;
+	background-color: black;
+	color: white;
+	padding: 2px 4px;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+
+.assortiment table th:nth-child(2),
+.assortiment table td:nth-child(2){
+	padding-left: 100px;
+}
+.assortiment table th:nth-child(3),
+.assortiment table td:nth-child(3){
+	padding-left: 35px;
+}
+
+.assortiment table th:nth-child(4),
+.assortiment table td:nth-child(4){
+	padding-left: 35px;
+}
+.assortiment table th:nth-child(5),
+.assortiment table td:nth-child(5){
+	padding-left: 100px;
+}
+
+.assortiment{
+	padding-bottom: 100px
+}
+
+.zakaz{
+	background-color: rgb(255, 203, 120);
+	padding-bottom: 80px;
+}
+.zakaz h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 0px 0 80px 150px;
+	padding-top: 80px;
+}
+.zakaz p{
+	width: 650px;
+	margin-left: 150px;
+	font-size: 16px;
+	color: rgb(64, 64, 64);
+	line-height: 28px;
+	margin-bottom: 80px;
+}
+.zakaz form{
+	margin-left: 150px;
+	width: 635px;
+	padding: 0;
+}
+.zakaz form input:not([type="submit"]){
+	width: 630px;
+}
+.zakaz form input[type="checkbox"]{
+	width: auto;
+}
+
+#phone-number{
+	width: 290px;
+}
+.phone{
+	display: inline-block;
+}
+.phone:last-of-type{
+	float: right;
+}
+.zakaz select{
+	width: 635px;
+}
+.zakaz textarea{
+	width: 632px;
+}
+.zakaz input,
+.zakaz select,
+.zakaz textarea{
+	background-color: rgb(229, 182, 108);
+	height: 50px;
+	border: none;
+	margin-bottom: 29px;
+	color: rgb(160, 127, 75);
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.zakaz label{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.zakaz input[type="checkbox"]{
+	display: none;
+}
+
+label[for="checkbox"]::before{
+	 content: " ";
+ color: #000;
+ display: inline-block;
+ font-size: 20px;
+ margin-right: 15px;
+ position: relative;
+ text-align:center;
+ text-indent: 0px;
+ width: 30px;
+ height: 30px;
+ background: rgb(229, 182, 108);
+ vertical-align: bottom;
+ padding-top: -2px;
+ margin-top: -10px;
+}
+
+.zakaz input[type="checkbox"]:checked + label::before{
+	content: "✓";
+}
+
+.zakaz input[type="submit"]{
+	background-color: rgb(131, 71, 0);
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;
+	margin-top: 40px;
+
+}
+.footer{
+	background: black;
+	padding-top: 50px;
+	height: 250px;
+	padding-right: 200px;
+}
+.footer .nav-group{
+	margin-left: 400px;
+}
+.footer-logo{
+	margin-left: 120px;
+}
+
+.social-media{
+	position: relative;
+	margin-left: 10px
+}
+.social-media a:first-of-type::before{
+	content:"";
+	position: absolute;
+	border: 1px solid rgba(255, 203, 120, 0.1);
+	width: 60px;
+	height: 60px;
+	background: url("img/icon-insta.png") no-repeat 50% 50% rgb(27,27,27);
+	left: 90px;
+	top: 40px;
+}
+
+.social-media a:nth-of-type(2)::before{
+	content:"";
+	position: absolute;
+	border: 1px solid rgba(255, 203, 120, 0.1);
+	width: 60px;
+	height: 60px;
+	background: url("img/icon-fb.png") no-repeat 50% 50% rgb(27,27,27);
+	left: 150px;
+	top: 40px;
+}
+
+.social-media a:last-of-type::before{
+	content:"";
+	position: absolute;
+	border: 1px solid rgba(255, 203, 120, 0.1);
+	width: 60px;
+	height: 60px;
+	background: url("img/icon-vk.png") no-repeat 50% 50% rgb(27,27,27);
+	left: 210px;
+	top: 40px
+}
+
+.footer p{
+	color: rgb(152, 152, 152);
+	font-size: 14px;
+	width: 200px;
+	margin-left: 400px;
+	margin-top: 70px;
+}
+
+.autor {
+	float: right;
+	position: relative;
+	margin-top: -35px
+}
+
+.autor .html-logo::before{
+	content:"";
+	position: absolute;
+	width: 63px;
+	height: 60px;
+	background: url("img/htmlacademy.png") no-repeat 50% 50% rgb(27, 27, 27);
+	border: 1px solid rgba(255, 203, 120, 0.1);
+	top: -20px;
+}
+.autor a:not([class="html-logo"]),
+.autor strong{
+	color: rgb(152, 152, 152);
+	font-size: 14px;
+	text-decoration: none;
+}
+.autor strong{
+	margin-left: 90px;
+}
+
+	
+
